@@ -1,0 +1,8 @@
+# ADB
+ro.adb.secure=0
+
+# Dynamic partitions
+ro.boot.dynamic_partitions=true
+
+# USB
+persist.sys.isUsbOtgEnabled=true
