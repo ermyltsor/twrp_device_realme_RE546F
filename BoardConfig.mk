@@ -139,6 +139,8 @@ TW_NO_LEGACY_PROPS := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_TOOLBOX := true
 TW_THEME := portrait_hdpi
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS := 160
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
