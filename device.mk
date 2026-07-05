@@ -32,6 +32,11 @@ PRODUCT_PACKAGES += \
 	android.hardware.fastboot@1.0-impl-mock.recovery \
     fastbootd
 
+# OTA certs
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+    $(LOCAL_PATH)/security/local_OTA \
+    $(LOCAL_PATH)/security/special_OTA
+
 # Resolution
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
